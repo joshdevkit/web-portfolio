@@ -19,13 +19,10 @@ export default function ProfileCard() {
           with a foundation in Computer Programming from Isabela State
           University. My tech journey is characterized by a blend of front-end
           and back-end development, optimizing systems to improve user
-          experience and operational efficiency. My roles have ranged from
-          leading tech initiatives in the esports community at Conestoga College
-          to enhancing retail operations through innovative solutions at
-          Pandora. I am passionate about technology and its impact on daily
-          life, I strive to integrate seamless tech experiences in diverse
-          environments. Let's connect and explore how we can drive technology
-          forward together!
+          experience and operational efficiency. I am passionate about
+          technology and its impact on daily life, I strive to integrate
+          seamless tech experiences in diverse environments. Let's connect and
+          explore how we can drive technology forward together!
         </p>
       </div>
     </div>
