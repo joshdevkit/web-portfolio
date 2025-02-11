@@ -9,7 +9,7 @@ export default function ProfileCard() {
         alt="Profile"
         className="w-32 h-32 rounded-full object-contain"
       />
-      <div className="text-white text-center md:text-left">
+      <div className="text-white text-center md:text-left text-justify">
         <h1 className="text-2xl font-bold mb-4">
           Hello, World! Welcome to My Portfolio
         </h1>
