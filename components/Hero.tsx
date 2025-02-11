@@ -15,7 +15,7 @@ export function HeroHighlightBg() {
       >
         <div className="mb-4">
           <img
-            className="rounded-full object-cover h-72 w-full"
+            className="rounded-full object-contain h-72 w-full"
             src={"/me.jpg"}
             alt="avatar"
           />
