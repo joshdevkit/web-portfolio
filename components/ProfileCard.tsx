@@ -1,6 +1,7 @@
 export default function ProfileCard() {
   return (
     <div
+      id="about"
       className="w-[80%] max-w-4xl mx-auto p-8 rounded-3xl bg-gradient-to-r 
     from-emerald-300 via-teal-400 to-blue-400 flex flex-col md:flex-row items-center gap-8 mt-6"
     >

@@ -44,7 +44,7 @@ export function HeroHighlightBg() {
 
           <Button
             className="bg-gray-800 text-white px-6 py-2 rounded-lg shadow-md 
-              flex items-center gap-2 hover:bg-gray-900 transition-all"
+              flex items-center gap-2 hover:bg-gray-400 transition-all"
             onClick={() =>
               (window.location.href = "mailto:jshpch1996@gmail.com")
             }

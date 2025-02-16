@@ -13,9 +13,20 @@ const technologies = [
 const TechStack = () => {
   return (
     <div className="mt-6 text-center">
-      <h2 className="text-lg font-semibold text-gray-700 dark:text-gray-300">
-        Tech Stack
-      </h2>
+      <div className="flex flex-col items-center text-center max-w-2xl mx-auto">
+        <h4 className="text-xl font-bold text-gray-800 dark:text-gray-200">
+          Passionate Full-Stack Developer 🚀
+        </h4>
+        <p className="mt-2 text-gray-600 dark:text-gray-400 text-justify">
+          I specialize in building dynamic, high-performance web applications
+          using the latest technologies. With a strong foundation in{" "}
+          <strong>Laravel, PHP, React, and Node.js</strong>, I create efficient,
+          scalable, and user-friendly solutions. Whether it's backend logic,
+          frontend interactivity, or full-stack development, I enjoy crafting
+          seamless digital experiences.
+        </p>
+      </div>
+
       <div className="flex flex-wrap justify-center gap-6 p-4 md:p-6">
         {technologies.map((tech, index) => (
           <motion.div
