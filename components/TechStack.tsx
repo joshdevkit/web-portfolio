@@ -12,7 +12,7 @@ const technologies = [
 
 const TechStack = () => {
   return (
-    <div className="mt-6 text-center">
+    <div className="mt-6 text-center max-w-sm">
       <div className="flex flex-col items-center text-center max-w-2xl mx-auto">
         <h4 className="text-xl font-bold text-gray-800 dark:text-gray-200">
           Passionate Full-Stack Developer 🚀
