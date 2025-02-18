@@ -14,7 +14,7 @@ import {
 const FloatingNavbar = () => {
   return (
     <header
-      className="fixed top-3 left-1/2 transform -translate-x-1/2 bg-white/20 backdrop-blur-md shadow-lg rounded-lg 
+      className="fixed top-10 left-1/2 transform -translate-x-1/2 bg-white/20 backdrop-blur-md shadow-lg rounded-lg 
       px-4 h-12 flex items-center space-x-6 z-50"
     >
       {[
