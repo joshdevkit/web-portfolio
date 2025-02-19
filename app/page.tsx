@@ -2,6 +2,7 @@ import { Code } from "@/components/Code";
 import ContactForm from "@/components/ContactForm";
 import { HeroHighlightBg } from "@/components/Hero";
 import FloatingNavbar from "@/components/navbar";
+import { OrbitingTechStack } from "@/components/OrbitingTechStack";
 import ProfileCard from "@/components/ProfileCard";
 import { Projects } from "@/components/Projects";
 import SocialLinks from "@/components/SocialLinks";
@@ -24,7 +25,7 @@ export default function Home() {
 
         <ProfileCard />
         <div className="flex items-center justify-center pb-10">
-          <TechStack />
+          <OrbitingTechStack />
         </div>
         <div
           id="services"
