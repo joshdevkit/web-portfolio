@@ -32,7 +32,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          <main className="overflow-hidden">{children}</main>
         </ThemeProvider>
       </body>
     </html>

@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import { HeroHighlight, Highlight } from "@/components/ui/hero-highlight";
 import { Mail, Download } from "lucide-react";
 import { Button } from "./ui/moving-border";
+import { ShimmerButton } from "./magicui/shimmer-button";
+import { InteractiveHoverButton } from "./magicui/interactive-hover-button";
 
 export function HeroHighlightBg() {
   return (
@@ -33,24 +35,21 @@ export function HeroHighlightBg() {
           </Highlight>
         </h1>
 
-        <div className="flex justify-between p-4 m-3">
-          <Button
-            className="bg-neutral-600 text-white px-6 py-2 rounded-lg shadow-md 
-              flex items-center gap-2 hover:bg-neutral-700 transition-all"
+        <div className="flex justify-between p-4 m-6 gap-2">
+          <ShimmerButton
+            className="shadow-3xl dark:text-gray-50 "
             onClick={() => window.open("/RESUME.pdf", "_blank")}
           >
-            <Download size={20} /> Download CV
-          </Button>
-
-          <Button
-            className="bg-gray-800 text-white px-6 py-2 rounded-lg shadow-md 
-              flex items-center gap-2 hover:bg-gray-400 transition-all"
+            Download CV <Download size={20} className="ml-2" />
+          </ShimmerButton>
+          <ShimmerButton
+            className="shadow-3xl dark:text-gray-50"
             onClick={() =>
               (window.location.href = "mailto:jshpch1996@gmail.com")
             }
           >
-            <Mail size={20} /> Email Me
-          </Button>
+            Email Me <Mail size={20} className="ml-2" />
+          </ShimmerButton>
         </div>
       </motion.div>
     </HeroHighlight>

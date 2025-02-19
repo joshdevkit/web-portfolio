@@ -21,6 +21,9 @@ export function Code() {
       Improve, 
       Repeat"
       </h2>
+      <p className="italic text-gray-600">
+        "Every bug you fix is a step toward mastery. Keep pushing forward!"
+      </p>
       <p className="mb-2">
         Bugs Fixed: {bugsFixed}
       </p>
