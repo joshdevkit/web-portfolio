@@ -20,16 +20,12 @@ export default function Home() {
       </div>
       <div
         className="fixed top-2 left-1/2 transform -translate-x-1/2  
-      px-4 h-12 flex items-center space-x-3 z-50"
+          px-4 h-12 flex items-center space-x-3 z-50"
       >
         <DockNavbar />
       </div>
-
       <div className="min-h-screen rounded-md dark:bg-neutral-950 relative items-center justify-center">
-        {/* <FloatingNavbar /> */}
-
         <HeroHighlightBg />
-
         <ProfileCard />
         <div className="flex items-center justify-center pb-10 mt-4">
           <MarqueeTechStack />

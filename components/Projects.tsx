@@ -17,6 +17,7 @@ export function Projects() {
       name: "Real Time Social Media App",
       designation: "Developed for TechFlow Inc.",
       src: "/assets/projects/1.PNG",
+      url: "#",
     },
     {
       quote:
@@ -24,6 +25,7 @@ export function Projects() {
       name: "MVC - Core PHP",
       designation: "Lightweight & Scalable Framework",
       src: "/assets/projects/mvc.PNG",
+      url: "#",
     },
     {
       quote:
@@ -31,6 +33,7 @@ export function Projects() {
       name: "School Assets and Inventory",
       designation: "Created for Tuguegarao University Capstone project.",
       src: "/assets/projects/inventory.PNG",
+      url: "#",
     },
     {
       quote:
@@ -38,6 +41,7 @@ export function Projects() {
       name: "GUFC SOLANE",
       designation: "Engineered for GUFC Solane Makati.",
       src: "/assets/projects/forecasting.PNG",
+      url: "#",
     },
     {
       quote:
@@ -45,6 +49,15 @@ export function Projects() {
       name: "VaxTrack: Online Health Center Vaccination Management",
       designation: "Developed for Carmen Bagong Silang.",
       src: "/assets/projects/health.PNG",
+      url: "#",
+    },
+    {
+      quote:
+        "The Meeting App is a fast, modern, and intuitive web application designed for seamless video conferencing, team collaboration, and virtual meetings. Built using React and Vite, it leverages ZegoCloud for high-quality real-time communication.",
+      name: "One-Talk",
+      designation: "Meeting App - Built with React & Vite.",
+      src: "/assets/projects/one-talk.PNG",
+      url: "https://open-talk-one.vercel.app/",
     },
   ];
 
