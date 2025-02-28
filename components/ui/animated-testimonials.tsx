@@ -2,7 +2,9 @@
 
 import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { Link2, MousePointerClick } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 type Testimonial = {
@@ -10,6 +12,7 @@ type Testimonial = {
   name: string;
   designation: string;
   src: string;
+  url: string;
 };
 export const AnimatedTestimonials = ({
   testimonials,
@@ -115,6 +118,11 @@ export const AnimatedTestimonials = ({
             <h3 className="text-2xl font-bold dark:text-white text-black">
               {testimonials[active].name}
             </h3>
+            <Link href={testimonials[active].url} target="_blank">
+              <h6 className="text-md font-bold dark:text-white text-black">
+                <MousePointerClick />
+              </h6>
+            </Link>
             <p className="text-sm text-gray-500 dark:text-neutral-500">
               {testimonials[active].designation}
             </p>
